@@ -83,3 +83,7 @@ place = input("[place]")
 
 print("My name is " + name + ".  I am taking " + pluralnoun + " to " + place + ".")
 ```
+
+## Challenge problem
+Solve:
+> Ask the user their name.  Respond with "Hello [name]" and then ask them their age.  Calculate how many days old they are and tell them "You are [days] days old".
