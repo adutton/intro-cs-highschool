@@ -4,7 +4,7 @@
 
 Problem:
 
-> Ask the user to input two numbers.  Print the sum of the two numbers.
+> Print the sum of two numbers.
 
 ### Think about your test data
 Choose test numbers that:
@@ -46,7 +46,7 @@ print(number1 ** number2)
 ## Adlibs/strings example
 
 Problem:
-> Ask the user for their name, a plural noun, and a place.  Then print out their values in a sentence "My name is [name].  I am taking [plural noun] to [place]."
+> Create an adlib with a name, a plural noun, and a place.  Print out the values in a sentence "My name is [name].  I am taking [plural noun] to [place]."
 
 ### Pick something you know the answer to
 ```python
@@ -82,3 +82,7 @@ print("My name is " + pluralnoun + ".  I am taking " + name + " to " + place + "
 ```
 
 #### Discuss: What are some good choices?
+
+## Challenge problem
+Solve:
+> Print the product of three numbers.
