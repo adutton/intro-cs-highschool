@@ -10,14 +10,14 @@ Problem:
 Choose test numbers that:
 * You will know the answer
 * Are different from each other
-* Are not too simple--make them complex enough that you might uncover irregularities.  I avoid 0, 1, and 2 for most problems.
+* Are not too simple--make them complex enough that you might uncover irregularities.  Avoid 0, 1, and 2 for most problems. *These are actually great values for finding problems later but aren't great for getting your code started*
 
 #### You know the answer to the problem
 ```python
 number1 = 2348234832
 number2 = 58813121
 
-print(number1 + number1)
+print(number1 + number2)
 
 # Do you really know what to expect?
 ```
