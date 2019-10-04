@@ -55,3 +55,31 @@ print(number1 + number1)
 
 # What is the error?
 ```
+
+## Adlibs/strings example
+
+Problem:
+> Ask the user for their name, a plural noun, and a place.  Then print out their values in a sentence "My name is [name].  I am taking [plural noun] to [place]."
+
+### Start with the second half
+```python
+print("My name is [name].  I am taking [pluralnoun] to [place].")
+```
+
+### Use exact placeholders
+```python
+name = "[name]"
+pluralnoun = "[pluralnoun]"
+place = "[place]"
+
+print("My name is " + name + ".  I am taking " + pluralnoun + " to " + place + ".")
+```
+
+### Finish by adding input statements
+```python
+name = input("[name]")
+pluralnoun = input("[pluralnoun]")
+place = input("[place]")
+
+print("My name is " + name + ".  I am taking " + pluralnoun + " to " + place + ".")
+```
